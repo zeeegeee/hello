@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In the command line
 
-Things you may want to cover:
+download the repository: 
+  git clone https://github.com/zeeegeee/hello.git
+start the rails server
+  rails s 
+visit localhost to see the site:
+  localhost: http://localhost:3000
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This application can also be visited using Heroku: 
+  https://desolate-plains-83045.herokuapp.com
