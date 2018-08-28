@@ -3,7 +3,7 @@
 In the command line
 
 download the repository: 
-  git clone https://github.com/zeeegeee/hello.git
+  git clone https://github.com/zeeegeee/hello.git \n
 start the rails server
   rails s 
 visit localhost to see the site:
