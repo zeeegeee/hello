@@ -1,0 +1,6 @@
+2018-08-28 08:05:11.899 EDT [30127] LOG:  listening on IPv6 address "::1", port 5432
+2018-08-28 08:05:11.899 EDT [30127] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-08-28 08:05:11.901 EDT [30127] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-08-28 08:05:11.912 EDT [30128] LOG:  database system was shut down at 2018-08-28 08:05:01 EDT
+2018-08-28 08:05:11.916 EDT [30127] LOG:  database system is ready to accept connections
+2018-08-28 08:05:23.523 EDT [30150] FATAL:  database "hello_development" does not exist
