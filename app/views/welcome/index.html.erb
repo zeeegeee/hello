@@ -1,8 +1,12 @@
 <h2>Hello World</h2>
 <p>
   The time in NewYork now: <%= Time.now %><br/>
-  The time in California now: <%=Time.now %><br/>
-  The time in Colorado now: <%Time.now %>
+
+  The time in California now: <%= Time.at(Time.now.utc + Time.zone_offset('PDT')) %><br/>
+  The time in Colorado now: <%= Time.at(Time.now.utc + Time.zone_offset('CST')) %><br/>
+
+
+ 
 
 
 </p>
